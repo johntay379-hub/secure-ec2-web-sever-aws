@@ -11,7 +11,7 @@ I built a custom network from scratch to ensure the web server was isolated and 
 * **Least Privilege:** No unnecessary ports are open to the public.
 * **Automation:** Used a 'User Data' script to install Apache, reducing human error.
 * **Key Pair Access:** Encrypted terminal access using RSA keys.
-## 🗺️Architecture Diagram
+## Architecture Diagram
 ```mermaid
 graph LR
     User((Internet User)) -->|Port 80| IGW[Internet Gateway]
